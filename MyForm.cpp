@@ -20,7 +20,7 @@ using namespace System::Windows::Forms;
 
 int main() {
      
-	 for (int i = 0; i < 10; i++) {
+	 for (int i = 0; i < 100000; i++) {
          Critic::airport.push_back(i);
          Critic::delays[to_string(i)]=rand()%100;
          int cool = rand() % 100;
