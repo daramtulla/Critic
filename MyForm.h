@@ -19,6 +19,10 @@ namespace Critic {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
+
+	int blob;
+	int look;
+	int wlevniknsw;
 	/// <summary>
 	/// Summary for MyForm
 	/// </summary>
